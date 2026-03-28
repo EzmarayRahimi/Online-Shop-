@@ -28,7 +28,7 @@ export default function Hero() {
 
           <p className="text-gray-300 text-base md:text-lg mb-8 leading-loose max-w-xl">
             بهترین میوه‌ها، سبزیجات تازه و مواد غذایی روزانه را با قیمت مناسب سفارش دهید.
-            ارسال سریع به سراسر افغانستان.
+            ارسال سریع به سراسر هرات.
           </p>
 
           <div className="flex flex-wrap gap-3 mb-10">

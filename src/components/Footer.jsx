@@ -11,11 +11,11 @@ export default function Footer() {
             </div>
             <div className="flex flex-col leading-tight">
               <span className="text-lg font-extrabold text-white">بازار سبز</span>
-              <span className="text-[10px] text-gray-500">سوپرمارکت آنلاین افغانستان</span>
+              <span className="text-[10px] text-gray-500">سوپرمارکت آنلاین هرات</span>
             </div>
           </div>
           <p className="text-sm leading-relaxed text-gray-500 mb-4">
-            ارسال سریع در سراسر افغانستان. محصولات تازه، قیمت مناسب، خدمات قابل اعتماد.
+            ارسال سریع در سراسر هرات. محصولات تازه، قیمت مناسب، خدمات قابل اعتماد.
           </p>
           {/* Social */}
           <div className="flex gap-3">
@@ -73,19 +73,19 @@ export default function Footer() {
           <ul className="space-y-3 text-sm mb-5">
             <li className="flex items-start gap-2">
               <span className="text-green-500 mt-0.5">📧</span>
-              <span>info@bazarsabz.af</span>
+              <span>bazarsabs@gmail.com</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-green-500 mt-0.5">📞</span>
-              <span dir="ltr">+93 700 123 456</span>
+              <span dir="ltr">+93795317400</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-green-500 mt-0.5">📍</span>
-              <span>کابل، افغانستان — شهر نو، سرک سوم</span>
+              <span>هرات، افغانستان — شهر نو،  </span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-green-500 mt-0.5">🚚</span>
-              <span>ارسال سریع به سراسر افغانستان</span>
+              <span>ارسال سریع به سراسر هرات</span>
             </li>
           </ul>
 

@@ -24,7 +24,7 @@ export default function Header({ cartCount }) {
             <span className="text-lg font-extrabold bg-gradient-to-l from-green-500 to-green-700 bg-clip-text text-transparent">
               بازار سبز
             </span>
-            <span className="text-[10px] text-gray-400 font-medium">سوپرمارکت آنلاین افغانستان</span>
+            <span className="text-[10px] text-gray-400 font-medium">سوپرمارکت آنلاین هرات</span>
           </div>
         </div>
 
