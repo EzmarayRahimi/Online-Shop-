@@ -3,7 +3,7 @@ export default function SpecialOffer() {
     <section id="offer" className="max-w-7xl mx-auto px-4 py-10">
       <div
         className="relative rounded-3xl overflow-hidden bg-cover bg-center min-h-[280px] flex items-center"
-        style={{ backgroundImage: "url('/images/photo_15_2026-03-28_18-58-23.jpg')" }}
+        style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/photo_15_2026-03-28_18-58-23.jpg')` }}
       >
         <div className="absolute inset-0 bg-gradient-to-l from-green-900/92 via-green-800/75 to-transparent" />
         <div className="absolute right-0 top-0 w-72 h-72 bg-green-400/20 rounded-full blur-3xl pointer-events-none" />
