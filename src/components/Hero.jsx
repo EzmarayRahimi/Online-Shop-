@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       className="relative bg-cover bg-center min-h-[560px] flex items-center overflow-hidden"
-      style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/photo_1_2026-03-28_18-58-23.jpg')` }}
+      style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/photo_1_2026-03-28_18-58-88.jpg')` }}
     >
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/55 to-black/20" />
@@ -22,7 +22,7 @@ export default function Hero() {
             خرید تازه‌ترین
             <br />
             <span className="bg-gradient-to-l from-green-300 to-green-500 bg-clip-text text-transparent">
-              مواد غذایی در افغانستان
+              مواد غذایی در هرات
             </span>
           </h1>
 
@@ -51,7 +51,7 @@ export default function Hero() {
             {[
               { value: '+۵۰۰',  label: 'نوع محصول'       },
               { value: '+۲۰۰۰', label: 'مشتری راضی'      },
-              { value: '۳۴',    label: 'ولایت تحت پوشش'  },
+              { value: '۴',    label: 'ولایت تحت پوشش'  },
               { value: '۲۴/۷',  label: 'پشتیبانی آنلاین' },
             ].map((s) => (
               <div key={s.label} className="flex flex-col">
