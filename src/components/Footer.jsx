@@ -108,7 +108,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 mb-6">
         <div className="bg-green-900/40 border border-green-800/50 rounded-2xl px-6 py-4 flex flex-wrap items-center justify-center gap-6 text-sm text-green-300">
           {[
-            { icon: '🚚', text: 'ارسال سریع در سراسر افغانستان' },
+            { icon: '🚚', text: 'ارسال سریع در سراسر هرات' },
             { icon: '✅', text: 'محصولات تازه و با کیفیت' },
             { icon: '💰', text: 'قیمت‌های مناسب به افغانی' },
             { icon: '🔒', text: 'پرداخت امن و مطمئن' },
