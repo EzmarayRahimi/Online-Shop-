@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && copy /Y dist\\index.html index.html && git add index.html assets -f && git commit -m \"deploy: update build\" && git push origin master"
   },
   "dependencies": {
     "react": "^18.2.0",
